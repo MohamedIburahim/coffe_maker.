@@ -32,9 +32,5 @@ while is_on:
              if is_resource_sufficient and vendingmachine.make_payment(drink.cost): 
                       print(coffeemaker.make_coffee(drink))
                  
-"""
-AttributeError: 'MenuItem' object has no attribute 
-'ingredients'. 
-Did you mean: 'ingridents'?
-"""
+
 
